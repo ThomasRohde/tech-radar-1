@@ -6,42 +6,60 @@
       "ring": 1,
       "label": "AWS Athena",
       "active": true,
-      "moved": 1
+      "moved": 1,
+      "sponsor": "Data Engineering Team",
+      "date_added": "2023-09-15",
+      "description": "AWS Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL."
     },
     {
       "quadrant": 3,
       "ring": 0,
       "label": "AWS EMR",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Big Data Team",
+      "date_added": "2022-11-30",
+      "description": "Amazon EMR is a cloud big data platform for running large-scale distributed data processing jobs, interactive SQL queries, and machine learning applications."
     },
     {
       "quadrant": 3,
       "ring": 2,
       "label": "AWS Glue",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Data Integration Team",
+      "date_added": "2023-03-22",
+      "description": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy to prepare and load data for analytics."
     },
     {
       "quadrant": 3,
       "ring": 2,
       "label": "AWS Lake Formation",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Data Governance Team",
+      "date_added": "2023-07-01",
+      "description": "AWS Lake Formation is a service that makes it easy to set up a secure data lake in days."
     },
     {
       "quadrant": 3,
       "ring": 0,
       "label": "Airflow",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Data Pipeline Team",
+      "date_added": "2022-05-18",
+      "description": "Apache Airflow is a platform to programmatically author, schedule, and monitor workflows."
     },
     {
       "quadrant": 3,
       "ring": 0,
       "label": "Databricks",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Data Science Team",
+      "date_added": "2023-01-10",
+      "description": "Databricks is a unified data analytics platform designed to help data teams solve the world's toughest problems."
     },
     {
       "quadrant": 3,
@@ -49,21 +67,30 @@
       "label": "Flink",
       "link": "https://engineering.zalando.com/tags/apache-flink.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Streaming Data Team",
+      "date_added": "2023-04-05",
+      "description": "Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams."
     },
     {
       "quadrant": 3,
       "ring": 1,
       "label": "Google BigQuery",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Business Intelligence Team",
+      "date_added": "2023-02-14",
+      "description": "Google BigQuery is a fully-managed, serverless data warehouse that enables scalable analysis over petabytes of data."
     },
     {
       "quadrant": 3,
       "ring": 1,
       "label": "Presto",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Query Engine Team",
+      "date_added": "2022-08-30",
+      "description": "Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes."
     },
     {
       "quadrant": 3,
@@ -71,35 +98,50 @@
       "label": "Spark",
       "link": "https://engineering.zalando.com/tags/apache-spark.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Big Data Processing Team",
+      "date_added": "2022-03-15",
+      "description": "Apache Spark is a unified analytics engine for large-scale data processing."
     },
     {
       "quadrant": 3,
       "ring": 2,
       "label": "Streamlit",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Data Visualization Team",
+      "date_added": "2023-11-20",
+      "description": "Streamlit is an open-source app framework for Machine Learning and Data Science teams to create beautiful, performant apps quickly."
     },
     {
       "quadrant": 3,
       "ring": 1,
       "label": "dbt",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Data Transformation Team",
+      "date_added": "2023-06-08",
+      "description": "dbt (data build tool) enables analytics engineers to transform data in their warehouses by simply writing select statements."
     },
     {
       "quadrant": 2,
       "ring": 0,
       "label": "AWS DynamoDB",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "NoSQL Database Team",
+      "date_added": "2022-09-01",
+      "description": "Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale."
     },
     {
       "quadrant": 2,
       "ring": 0,
       "label": "AWS S3",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Storage Team",
+      "date_added": "2022-01-15",
+      "description": "Amazon S3 (Simple Storage Service) is an object storage service offering industry-leading scalability, data availability, security, and performance."
     },
     {
       "quadrant": 2,
@@ -107,28 +149,40 @@
       "label": "Amazon ElastiCache",
       "link": "https://engineering.zalando.com/tags/redis.html",
       "active": true,
-      "moved": 1
+      "moved": 1,
+      "sponsor": "Caching Team",
+      "date_added": "2023-05-20",
+      "description": "Amazon ElastiCache is a fully managed in-memory caching service supporting flexible, real-time use cases."
     },
     {
       "quadrant": 2,
       "ring": 2,
       "label": "Amazon MemoryDB",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "In-Memory Database Team",
+      "date_added": "2023-08-15",
+      "description": "Amazon MemoryDB for Redis is a Redis-compatible, durable, in-memory database service that delivers ultra-fast performance."
     },
     {
       "quadrant": 2,
       "ring": 1,
       "label": "Amazon Redshift",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Data Warehouse Team",
+      "date_added": "2022-11-05",
+      "description": "Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud."
     },
     {
       "quadrant": 2,
       "ring": 1,
       "label": "Amazon Feature Store",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Machine Learning Infrastructure Team",
+      "date_added": "2023-09-30",
+      "description": "Amazon Feature Store is a fully managed feature store for machine learning."
     },
     {
       "quadrant": 2,
@@ -136,21 +190,30 @@
       "label": "Apache Cassandra",
       "link": "https://engineering.zalando.com/tags/cassandra.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Distributed Database Team",
+      "date_added": "2022-06-20",
+      "description": "Apache Cassandra is a free and open-source, distributed, wide-column store, NoSQL database management system."
     },
     {
       "quadrant": 2,
       "ring": 3,
       "label": "Consul",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Service Discovery Team",
+      "date_added": "2023-01-25",
+      "description": "Consul is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality."
     },
     {
       "quadrant": 2,
       "ring": 1,
       "label": "Druid",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Real-time Analytics Team",
+      "date_added": "2023-03-10",
+      "description": "Apache Druid is a high performance real-time analytics database."
     },
     {
       "quadrant": 2,
@@ -158,63 +221,90 @@
       "label": "Elasticsearch",
       "link": "https://engineering.zalando.com/tags/elasticsearch.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Search Infrastructure Team",
+      "date_added": "2022-04-15",
+      "description": "Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases."
     },
     {
       "quadrant": 2,
       "ring": 0,
       "label": "Exasol",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "High-Performance Analytics Team",
+      "date_added": "2023-07-05",
+      "description": "Exasol is an in-memory, column-oriented, relational database management system."
     },
     {
       "quadrant": 2,
       "ring": 3,
       "label": "HBase",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Big Data Storage Team",
+      "date_added": "2022-08-12",
+      "description": "Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable."
     },
     {
       "quadrant": 2,
       "ring": 1,
       "label": "HDFS",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Distributed File System Team",
+      "date_added": "2022-05-30",
+      "description": "Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware."
     },
     {
       "quadrant": 2,
       "ring": 3,
       "label": "Hazelcast",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "In-Memory Computing Team",
+      "date_added": "2023-02-28",
+      "description": "Hazelcast is an open source in-memory data grid based on Java."
     },
     {
       "quadrant": 2,
       "ring": 3,
       "label": "Memcached",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Caching Infrastructure Team",
+      "date_added": "2022-10-10",
+      "description": "Memcached is a high-performance, distributed memory object caching system."
     },
     {
       "quadrant": 2,
       "ring": 3,
       "label": "MongoDB",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Document Database Team",
+      "date_added": "2022-07-18",
+      "description": "MongoDB is a source-available cross-platform document-oriented database program."
     },
     {
       "quadrant": 2,
       "ring": 3,
       "label": "MySQL",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Relational Database Team",
+      "date_added": "2022-03-01",
+      "description": "MySQL is an open-source relational database management system."
     },
     {
       "quadrant": 2,
       "ring": 3,
       "label": "Oracle DB",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Enterprise Database Team",
+      "date_added": "2022-01-20",
+      "description": "Oracle Database is a multi-model database management system produced and marketed by Oracle Corporation."
     },
     {
       "quadrant": 2,
@@ -222,7 +312,10 @@
       "label": "PostgreSQL",
       "link": "https://engineering.zalando.com/tags/postgresql.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Open Source Database Team",
+      "date_added": "2022-02-14",
+      "description": "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development."
     },
     {
       "quadrant": 2,
@@ -230,21 +323,30 @@
       "label": "Redis",
       "link": "https://engineering.zalando.com/tags/redis.html",
       "active": true,
-      "moved": -1
+      "moved": -1,
+      "sponsor": "In-Memory Data Structure Team",
+      "date_added": "2022-09-22",
+      "description": "Redis is an open source, in-memory data structure store, used as a database, cache, and message broker."
     },
     {
       "quadrant": 2,
       "ring": 2,
       "label": "RocksDB",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Embedded Database Team",
+      "date_added": "2023-06-15",
+      "description": "RocksDB is an embeddable persistent key-value store for fast storage."
     },
     {
       "quadrant": 2,
       "ring": 3,
       "label": "Solr",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Enterprise Search Team",
+      "date_added": "2022-12-05",
+      "description": "Apache Solr is an open-source enterprise-search platform, written in Java."
     },
     {
       "quadrant": 2,
@@ -252,77 +354,100 @@
       "label": "Valkey",
       "link": "https://engineering.zalando.com/tags/redis.html",
       "active": true,
-      "moved": 2
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ZooKeeper",
-      "active": true,
-      "moved": 0
+      "moved": 2,
+      "sponsor": "Key-Value Store Team",
+      "date_added": "2023-10-20",
+      "description": "Valkey is a highly available key-value store for the edge."
     },
     {
       "quadrant": 1,
       "ring": 0,
       "label": "AWS CloudFormation",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Infrastructure as Code Team",
+      "date_added": "2022-05-10",
+      "description": "AWS CloudFormation provides a common language to describe and provision all the infrastructure resources in your cloud environment."
     },
     {
       "quadrant": 1,
       "ring": 0,
       "label": "AWS CloudFront",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Content Delivery Team",
+      "date_added": "2022-07-15",
+      "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally."
     },
     {
       "quadrant": 1,
       "ring": 1,
       "label": "AWS Elemental MediaConvert",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Media Processing Team",
+      "date_added": "2023-03-20",
+      "description": "AWS Elemental MediaConvert is a file-based video transcoding service with broadcast-grade features."
     },
     {
       "quadrant": 1,
       "ring": 1,
       "label": "AWS Lambda",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Serverless Computing Team",
+      "date_added": "2022-09-01",
+      "description": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers."
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "AWS Service Catalog",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "IT Service Management Team",
+      "date_added": "2023-01-15",
+      "description": "AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS."
     },
     {
       "quadrant": 1,
       "ring": 1,
       "label": "AWS Step Functions",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Workflow Orchestration Team",
+      "date_added": "2023-05-05",
+      "description": "AWS Step Functions is a serverless function orchestrator that makes it easy to sequence AWS Lambda functions and multiple AWS services into business-critical applications."
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "Amazon Bedrock",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "AI Services Team",
+      "date_added": "2023-11-10",
+      "description": "Amazon Bedrock is a fully managed service that makes foundation models from leading AI companies accessible via an API."
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "Amazon Pinpoint",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Customer Engagement Team",
+      "date_added": "2023-08-20",
+      "description": "Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service."
     },
     {
       "quadrant": 1,
       "ring": 0,
       "label": "Amazon SageMaker",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Machine Learning Platform Team",
+      "date_added": "2022-11-15",
+      "description": "Amazon SageMaker is a fully managed machine learning platform that enables developers and data scientists to build, train, and deploy machine learning models quickly."
     },
     {
       "quadrant": 1,
@@ -330,21 +455,30 @@
       "label": "Docker",
       "link": "https://engineering.zalando.com/tags/docker.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Containerization Team",
+      "date_added": "2022-03-01",
+      "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers."
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "GraalVM",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Java Performance Team",
+      "date_added": "2023-07-01",
+      "description": "GraalVM is a high-performance JDK distribution designed to accelerate the execution of applications written in Java and other JVM languages."
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "Kotlin Multiplatform",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Cross-Platform Development Team",
+      "date_added": "2023-09-15",
+      "description": "Kotlin Multiplatform is a cross-platform development solution that allows you to share code between multiple platforms."
     },
     {
       "quadrant": 1,
@@ -352,49 +486,70 @@
       "label": "Kubernetes",
       "link": "https://engineering.zalando.com/tags/kubernetes.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Container Orchestration Team",
+      "date_added": "2022-06-10",
+      "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications."
     },
     {
       "quadrant": 1,
       "ring": 1,
       "label": "Open Policy Agent",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Security Policy Team",
+      "date_added": "2023-04-20",
+      "description": "Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack."
     },
     {
       "quadrant": 1,
       "ring": 0,
       "label": "OpenTelemetry",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Observability Team",
+      "date_added": "2023-02-01",
+      "description": "OpenTelemetry is a collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data for analysis."
     },
     {
       "quadrant": 1,
       "ring": 0,
       "label": "Skipper",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "API Gateway Team",
+      "date_added": "2022-10-05",
+      "description": "Skipper is an HTTP router and reverse proxy for service composition, designed to handle large amounts of dynamically configured HTTP route definitions."
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "Slurm",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "High-Performance Computing Team",
+      "date_added": "2023-06-15",
+      "description": "Slurm is an open source, fault-tolerant, and highly scalable cluster management and job scheduling system for large and small Linux clusters."
     },
     {
       "quadrant": 1,
       "ring": 1,
       "label": "WebAssembly",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Web Performance Team",
+      "date_added": "2023-08-01",
+      "description": "WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine, designed as a portable target for high-performance applications on the web."
     },
     {
       "quadrant": 1,
       "ring": 0,
       "label": "ZMON",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Monitoring Team",
+      "date_added": "2022-04-01",
+      "description": "ZMON is Zalando's open-source platform monitoring tool, allowing definition and scheduling of alerts across teams."
     },
     {
       "quadrant": 0,
@@ -402,14 +557,20 @@
       "label": "Clojure",
       "link": "https://engineering.zalando.com/tags/clojure.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Functional Programming Team",
+      "date_added": "2022-08-15",
+      "description": "Clojure is a dynamic, general-purpose programming language, combining the approachability of a scripting language with an efficient and robust infrastructure for multithreaded programming."
     },
     {
       "quadrant": 0,
       "ring": 1,
       "label": "Dart",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Mobile Development Team",
+      "date_added": "2023-03-10",
+      "description": "Dart is a client-optimized language for fast apps on any platform, used for developing mobile, desktop, server, and web applications."
     },
     {
       "quadrant": 0,
@@ -417,7 +578,10 @@
       "label": "Go",
       "link": "https://engineering.zalando.com/tags/golang.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Backend Development Team",
+      "date_added": "2022-05-20",
+      "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software."
     },
     {
       "quadrant": 0,
@@ -425,7 +589,10 @@
       "label": "GraphQL",
       "link": "https://engineering.zalando.com/tags/graphql.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "API Development Team",
+      "date_added": "2022-09-30",
+      "description": "GraphQL is a query language for APIs and a runtime for executing those queries with your existing data."
     },
     {
       "quadrant": 0,
@@ -433,7 +600,10 @@
       "label": "Haskell",
       "link": "https://engineering.zalando.com/tags/haskell.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Advanced Programming Team",
+      "date_added": "2022-11-01",
+      "description": "Haskell is a statically typed, purely functional programming language with type inference and lazy evaluation."
     },
     {
       "quadrant": 0,
@@ -441,7 +611,10 @@
       "label": "Java",
       "link": "https://engineering.zalando.com/tags/java.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Enterprise Development Team",
+      "date_added": "2022-01-15",
+      "description": "Java is a class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
     },
     {
       "quadrant": 0,
@@ -449,7 +622,10 @@
       "label": "JavaScript",
       "link": "https://engineering.zalando.com/tags/javascript.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Frontend Development Team",
+      "date_added": "2022-02-01",
+      "description": "JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification."
     },
     {
       "quadrant": 0,
@@ -457,7 +633,10 @@
       "label": "Kotlin",
       "link": "https://engineering.zalando.com/tags/kotlin.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Android Development Team",
+      "date_added": "2022-07-01",
+      "description": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference."
     },
     {
       "quadrant": 0,
@@ -465,7 +644,10 @@
       "label": "OpenAPI (Swagger)",
       "link": "https://engineering.zalando.com/tags/openapi.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "API Design Team",
+      "date_added": "2022-10-15",
+      "description": "OpenAPI Specification (formerly Swagger Specification) is an API description format for REST APIs."
     },
     {
       "quadrant": 0,
@@ -473,14 +655,20 @@
       "label": "Python",
       "link": "https://engineering.zalando.com/tags/python.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Data Science Team",
+      "date_added": "2022-03-15",
+      "description": "Python is an interpreted, high-level, general-purpose programming language, emphasizing code readability and simplicity."
     },
     {
       "quadrant": 0,
       "ring": 2,
       "label": "R",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Statistical Computing Team",
+      "date_added": "2023-01-10",
+      "description": "R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing."
     },
     {
       "quadrant": 0,
@@ -488,7 +676,10 @@
       "label": "Rust",
       "link": "https://engineering.zalando.com/tags/rust.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Systems Programming Team",
+      "date_added": "2023-05-01",
+      "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency."
     },
     {
       "quadrant": 0,
@@ -496,7 +687,10 @@
       "label": "Scala",
       "link": "https://engineering.zalando.com/tags/scala.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Big Data Team",
+      "date_added": "2022-06-01",
+      "description": "Scala is a strong statically typed general-purpose programming language which supports both object-oriented programming and functional programming."
     },
     {
       "quadrant": 0,
@@ -504,7 +698,10 @@
       "label": "Swift",
       "link": "https://engineering.zalando.com/tags/swift.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "iOS Development Team",
+      "date_added": "2022-08-01",
+      "description": "Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, iPadOS, macOS, watchOS, tvOS, Linux, and z/OS."
     },
     {
       "quadrant": 0,
@@ -512,28 +709,40 @@
       "label": "TypeScript",
       "link": "https://engineering.zalando.com/tags/typescript.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Frontend Architecture Team",
+      "date_added": "2022-04-15",
+      "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, adding optional static typing, classes, and modules."
     },
     {
       "quadrant": 3,
       "ring": 0,
       "label": "AWS Kinesis",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Streaming Data Team",
+      "date_added": "2022-09-10",
+      "description": "Amazon Kinesis is a platform for streaming data on AWS, offering powerful services to make it easy to load and analyze streaming data, and also providing the ability to build custom streaming data applications."
     },
     {
       "quadrant": 3,
       "ring": 0,
       "label": "AWS SNS",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Messaging Services Team",
+      "date_added": "2022-07-20",
+      "description": "Amazon Simple Notification Service (SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication."
     },
     {
       "quadrant": 3,
       "ring": 0,
       "label": "AWS SQS",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Messaging Infrastructure Team",
+      "date_added": "2022-06-15",
+      "description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications."
     },
     {
       "quadrant": 3,
@@ -541,7 +750,10 @@
       "label": "Kafka",
       "link": "https://engineering.zalando.com/tags/apache-kafka.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Event Streaming Platform Team",
+      "date_added": "2022-03-01",
+      "description": "Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications."
     },
     {
       "quadrant": 3,
@@ -549,7 +761,10 @@
       "label": "Nakadi",
       "link": "https://nakadi.io",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Event Bus Team",
+      "date_added": "2022-11-05",
+      "description": "Nakadi is a distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues."
     },
     {
       "quadrant": 3,
@@ -557,7 +772,10 @@
       "label": "RabbitMQ",
       "link": "https://engineering.zalando.com/tags/rabbitmq.html",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "sponsor": "Message Broker Team",
+      "date_added": "2023-01-20",
+      "description": "RabbitMQ is an open source message broker software that originally implemented the Advanced Message Queuing Protocol and has since been extended with a plug-in architecture to support other protocols."
     }
   ]
 }
