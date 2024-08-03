@@ -384,7 +384,6 @@ function radar_visualization(config) {
     bubble.append("path").attr("d", "M 0,0 10,0 5,8 z").style("fill", "#333");
 
     const ringNames = ["Adopt", "Trial", "Assess", "Hold"];
-    const quadrantNames = ["Languages & Frameworks", "Platforms & APIs", "Tools", "Techniques"];
 
     function translateMovement(moved) {
         if (moved === 0) return "No change";
@@ -419,7 +418,7 @@ function radar_visualization(config) {
                 .attr("text-anchor", "middle");
 
             var fields = [
-                { key: "quadrant", label: "Quadrant", format: (value) => quadrantNames[value] },
+                { key: "quadrant", label: "Quadrant", format: (value) => config.quadrants[value].name },
                 { key: "ring", label: "Ring", format: (value) => ringNames[value] },
                 { key: "moved", label: "Movement", format: translateMovement },
                 { key: "sponsor", label: "Sponsor" },
